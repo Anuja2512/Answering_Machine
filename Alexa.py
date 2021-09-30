@@ -54,6 +54,9 @@ def call_Anuja():
     elif 'In which standard you are' in command:
         cmd = talk('I am in a 11th standard')
         print(cmd)
+    elif 'Are you happy?' in command:
+        cmd=talk('Yes,I am ,as I can help you!')
+        print(cmd)    
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
