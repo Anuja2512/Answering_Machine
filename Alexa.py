@@ -52,7 +52,7 @@ def call_Anuja():
         cmd = talk('I am in a relationship with WiFi')
         print(cmd)
     elif 'are you happy' in command:
-        cmd = talk('Yes,I am happy,as I can help you')
+        cmd = talk('Yes,I am happy,as I can help you!')
         print(cmd)
     else:
        default = talk('I am sorry, I did not understand')
