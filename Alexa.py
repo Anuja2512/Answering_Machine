@@ -48,8 +48,11 @@ def call_Anuja():
     elif 'joke' in command:
         joke = talk(pyjokes.get_joke())
         print(joke)
-    elif 'are you single' in command:
+    elif 'are you ' in command:
         cmd = talk('I am in a relationship with WiFi')
+        print(cmd)
+    elif 'In which standard you are' in command:
+        cmd = talk('I am in a 11th standard')
         print(cmd)
     else:
        default = talk('I am sorry, I did not understand')
