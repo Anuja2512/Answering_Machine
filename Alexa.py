@@ -51,6 +51,9 @@ def call_Anuja():
     elif 'are you single' in command:
         cmd = talk('I am in a relationship with WiFi')
         print(cmd)
+    elif 'how are you' in command:
+        cmd = talk('I am fine, thanks for asking')
+        print(cmd)    
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
