@@ -48,18 +48,21 @@ def call_Anuja():
     elif 'joke' in command:
         joke = talk(pyjokes.get_joke())
         print(joke)
-    elif 'are you single' in command:
+    elif 'Are you single' in command:
         cmd = talk('I am in a relationship with WiFi')
         print(cmd)
-    elif 'Hello,Who are you' in command:
-        cmd = talk('I am Arshad')
+    elif 'In which standard you are' in command:
+        cmd = talk('I am in a 11th standard')
         print(cmd)
-    elif 'how are you' in command:
+    elif 'How are you' in command:
         cmd = talk('I am fine, thanks for asking')
         print(cmd) 
-         elif 'can you dance' in command:
+         elif 'Can you dance' in command:
         cmd = talk('I am learning hip hop now, thanks for asking')
         print(cmd) 
+    elif 'Are you happy' in command:
+        cmd=talk('Yes,I am ,as I can help you!')
+        print(cmd)    
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
