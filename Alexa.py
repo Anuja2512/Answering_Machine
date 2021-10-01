@@ -90,6 +90,9 @@ def call_Anuja():
     elif 'from which city I am belong' in command:
         cmd=talk('I ask goohgle map ')
         print(cmd)    
+    elif 'How is your mood?' in command:
+        cmd=talk('Depressed as yours!')
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand ')
        print(default)
