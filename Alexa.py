@@ -57,7 +57,7 @@ def call_Anuja():
     elif 'How are you' in command:
         cmd = talk('I am fine, thanks for asking')
         print(cmd) 
-         elif 'Can you dance' in command:
+    elif 'Can you dance' in command:
         cmd = talk('I am learning hip hop now, thanks for asking')
         print(cmd) 
     elif 'Are you happy' in command:
@@ -69,6 +69,12 @@ def call_Anuja():
     elif 'what is the square of two?' in command:
         cmd=talk('four')
         print(cmd) 
+    elif 'Are you a Robot?' in command:
+        cmd=talk('I am a human robot ')
+        print(cmd)  
+    elif 'Tell me a joke ?' in command:
+        cmd=talk('Relationships are a lot like algebra. Have you ever looked at your X and wondered Y?')
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
