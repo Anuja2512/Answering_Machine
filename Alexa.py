@@ -62,7 +62,10 @@ def call_Anuja():
         print(cmd)
     elif 'Do u know siri?' in command:
         cmd=talk('Yeah! She is my good friend')
-        print(cmd)    
+        print(cmd) 
+    elif 'How was your day?' in command:
+        cmd=talk('My day was great! I tried to achieve my target')
+        print(cmd) 
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
