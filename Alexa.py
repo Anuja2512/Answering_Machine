@@ -65,6 +65,9 @@ def call_Anuja():
         print(cmd)    
     elif 'Where were you last night?' in command:
         cmd=talk('Ask you mom.')
+        print(cmd)  
+    elif 'Can you give me a random fact?' in command:
+        cmd=talk("There's a Valentine's Day for Single People in South Korea , perfect place for you!")
         print(cmd)   
     elif 'What is Engineering ?' in command:
         cmd=talk('the work of designing and creating large structures')
