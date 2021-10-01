@@ -66,6 +66,12 @@ def call_Anuja():
     elif 'Where were you last night?' in command:
         cmd=talk('Ask you mom.')
         print(cmd)
+    elif 'Where do you live?' in command:
+        cmd=talk('I live in globalized world')
+        print(cmd)
+    elif 'Where is west located?' in command:
+        cmd=talk('West is west to east and south to north and north to south')
+        print(cmd)
     elif 'What is two into two?' in command:
         cmd=talk('Four')
         print(cmd) 
@@ -78,9 +84,6 @@ def call_Anuja():
     elif 'Tell me a joke ?' in command:
         cmd=talk('Relationships are a lot like algebra. Have you ever looked at your X and wondered Y?')
         print(cmd)
-    else:
-       default = talk('I am sorry, I did not understand')
-       print(default)
     elif 'from which city I am belong' in command:
         cmd=talk('I ask goohgle map ')
         print(cmd)    
