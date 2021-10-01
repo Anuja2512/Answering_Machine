@@ -65,7 +65,10 @@ def call_Anuja():
         print(cmd)    
     elif 'Where were you last night?' in command:
         cmd=talk('Ask you mom.')
-        print(cmd)    
+        print(cmd) 
+    elif 'what is the square of two?' in command:
+        cmd=talk('four')
+        print(cmd) 
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
