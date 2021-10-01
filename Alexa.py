@@ -65,7 +65,10 @@ def call_Anuja():
         print(cmd)    
     elif 'Where were you last night?' in command:
         cmd=talk('Ask you mom.')
-        print(cmd)    
+        print(cmd)  
+    elif 'Can you give me a random fact?' in command:
+        cmd=talk("There's a Valentine's Day for Single People in South Korea , perfect place for you!")
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
