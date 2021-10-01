@@ -69,5 +69,11 @@ def call_Anuja():
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
+    elif 'from which city I am belong' in command:
+        cmd=talk('I ask goohgle map ')
+        print(cmd)    
+    else:
+       default = talk('I am sorry, I did not understand ')
+       print(default)
         
 call_Anuja()
