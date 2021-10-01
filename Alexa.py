@@ -66,6 +66,9 @@ def call_Anuja():
     elif 'Where were you last night?' in command:
         cmd=talk('Ask you mom.')
         print(cmd)    
+    elif 'How is your mood?' in command:
+        cmd=talk('Depressed as yours!')
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
