@@ -4,6 +4,7 @@ import pywhatkit
 import datetime
 import wikipedia 
 import pyjokes
+import webbrowser
 
 listener = event.Recognizer()
 engine = pyttsx3.init()
@@ -100,6 +101,10 @@ def call_Anuja():
     elif 'How is your health?' in command:
         cmd=talk('My sleep cycle is effed as yours!')
         print(cmd)
+    elif 'open youtube' in command:
+        cmd=talk('Opening youtube')
+        webbrowser.open("https://www.youtube.com/")
+        print(cmd)   
     else:
        default = talk('I am sorry, I did not understand ')
        print(default)
