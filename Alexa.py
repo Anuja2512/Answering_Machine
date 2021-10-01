@@ -25,6 +25,7 @@ def listening_Anuja():
             command = command.lower()
             print(command)
             
+            
     except:
         pass
     return command
@@ -95,6 +96,9 @@ def call_Anuja():
         print(cmd)    
     elif 'How is your mood?' in command:
         cmd=talk('Depressed as yours!')
+        print(cmd)
+    elif 'How is your health?' in command:
+        cmd=talk('My sleep cycle is effed as yours!')
         print(cmd)
     else:
        default = talk('I am sorry, I did not understand ')
