@@ -100,8 +100,13 @@ def call_Anuja():
     elif 'How is your health?' in command:
         cmd=talk('My sleep cycle is effed as yours!')
         print(cmd)
-    else:
+    elif:
        default = talk('I am sorry, I did not understand ')
        print(default)
+    else:
+       default = talk('I am happy, yeah ')
+       print(default)
+        
+        
         
 call_Anuja()
