@@ -1,3 +1,4 @@
+import os
 import speech_recognition as event
 import pyttsx3
 import pywhatkit
@@ -42,6 +43,10 @@ def call_Anuja():
         time = datetime.datetime.now().strftime('%I:%M %p')
         print('Current time is ' + time)
         talk('Current time is ' + time)
+    elif 'calculator' in command:
+        os.system('calc')
+        print('Opening calculator ')
+        talk('Opening calculator ')
     elif 'who' in command:
         person = command.replace('who is ', '')
         info = wikipedia.summary(person, 4)
