@@ -117,6 +117,5 @@ def call_Anuja():
     else:
        default = talk('I am sorry, I did not understand ')
        print(default)
-   
         
 call_Anuja()
