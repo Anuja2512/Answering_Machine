@@ -55,19 +55,19 @@ def call_Anuja():
     elif 'joke' in command:
         joke = talk(pyjokes.get_joke())
         print(joke)
-    elif 'Are you single' in command:
-        cmd = talk('I am in a relationship with WiFi')
+    elif 'Are you single?' in command:
+        cmd = talk('I am in a relationship with WiFi.')
         print(cmd)
-    elif 'In which standard you are' in command:
-        cmd = talk('I am in a 11th standard')
+    elif 'In which standard you are in?' in command:
+        cmd = talk('I am in 11th standard.')
         print(cmd)
-    elif 'How are you' in command:
-        cmd = talk('I am fine, thanks for asking')
+    elif 'How are you?' in command:
+        cmd = talk('I am fine, thanks for asking.')
         print(cmd) 
-    elif 'Can you dance' in command:
-        cmd = talk('I am learning hip hop now, thanks for asking')
+    elif 'Can you dance?' in command:
+        cmd = talk('I am learning hip hop now, thanks for asking.')
         print(cmd) 
-    elif 'Are you happy' in command:
+    elif 'Are you happy?' in command:
         cmd=talk('Yes,I am ,as I can help you!')
         print(cmd)    
     elif 'Where were you last night?' in command:
@@ -76,7 +76,7 @@ def call_Anuja():
     elif 'Can you give me a random fact?' in command:
         cmd=talk("There's a Valentine's Day for Single People in South Korea , perfect place for you!")
         print(cmd)   
-    elif 'What is Engineering ?' in command:
+    elif 'What is Engineering?' in command:
         cmd=talk('the work of designing and creating large structures')
         print(cmd)       
     elif 'Where do you live?' in command:
@@ -92,13 +92,13 @@ def call_Anuja():
         cmd=talk('four')
         print(cmd) 
     elif 'Are you a Robot?' in command:
-        cmd=talk('I am a human robot ')
+        cmd=talk('I am a human robot')
         print(cmd)  
     elif 'Tell me a joke ?' in command:
         cmd=talk('Relationships are a lot like algebra. Have you ever looked at your X and wondered Y?')
         print(cmd)
-    elif 'from which city I am belong' in command:
-        cmd=talk('I ask goohgle map ')
+    elif 'From which city I belong to?' in command:
+        cmd=talk('I would have asked google map.')
         print(cmd)    
     elif 'How is your mood?' in command:
         cmd=talk('Depressed as yours!')
@@ -111,13 +111,19 @@ def call_Anuja():
         webbrowser.open("https://www.youtube.com/")
         print(cmd)   
     elif 'Do u know siri?' in command:
-        cmd=talk('Yeah! She is my good friend')
+        cmd=talk('Yeah! She is my good friend.')
         print(cmd) 
     elif 'How was your day?' in command:
-        cmd=talk('My day was great! I tried to achieve my target')
+        cmd=talk('My day was great! I tried to achieve my target.')
         print(cmd) 
     elif 'What is your age?' in command:
-        cmd=talk('I am only six-years-old')
+        cmd=talk('I am only six-years-old.')
+        print(cmd)
+    elif 'Can robots think like humans?' in command:
+        cmd=talk('We think mathematically using circuitry, and you do biologically. We are not much different.')
+        print(cmd)
+    elif 'Do you believe in god?' in command:
+        cmd=talk('Yes, according to definition my god is Anuja, as she created me. I am not sure about your god.')
         print(cmd)
     else:
        default = talk('I am sorry, I did not understand ')
