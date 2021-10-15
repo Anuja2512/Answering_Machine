@@ -96,6 +96,9 @@ def call_Anuja():
     elif 'How is your mood?' in command:
         cmd=talk('Depressed as yours!')
         print(cmd)
+   elif 'Tell me fun fact about the world' in command:
+        cmd=talk('Sudan has the most pyramids in the world (not Egypt).')
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand ')
        print(default)
