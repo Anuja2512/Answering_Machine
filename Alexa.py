@@ -127,6 +127,11 @@ def call_Anuja():
         print(cmd)
     elif 'Why is 6 afraid of 7?' in command:
         cmd=talk('Because 7 8 9.')
+    elif 'What is the most favourite holiday destination?' in command:
+        cmd=talk('Maldives.')
+        print(cmd)
+    elif 'Knock Knock' in command:
+        cmd=talk("Who's there")
         print(cmd)
     else:
        default = talk('I am sorry, I did not understand ')
