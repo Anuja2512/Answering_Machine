@@ -90,14 +90,17 @@ def call_Anuja():
     elif 'Tell me a joke ?' in command:
         cmd=talk('Relationships are a lot like algebra. Have you ever looked at your X and wondered Y?')
         print(cmd)
-    elif 'from which city I am belong' in command:
-        cmd=talk('I ask goohgle map ')
+    elif 'from which city I am from' in command:
+        cmd=talk('I ask google map ')
         print(cmd)    
     elif 'How is your mood?' in command:
         cmd=talk('Depressed as yours!')
         print(cmd)
    elif 'Tell me fun fact about the world' in command:
         cmd=talk('Sudan has the most pyramids in the world (not Egypt).')
+        print(cmd)
+   elif 'Which is the coolest club in WCE?' in command:
+        cmd=talk('Google developers Students Club WCE!')
         print(cmd)
     else:
        default = talk('I am sorry, I did not understand ')
