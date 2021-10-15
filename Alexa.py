@@ -128,6 +128,12 @@ def call_Anuja():
     elif 'What is the most favourite holiday destination?' in command:
         cmd=talk('Maldives.')
         print(cmd)
+     elif 'What is the most favourite holiday destination?' in command:
+        cmd=talk('Maldives.')
+        print(cmd)
+    elif 'Knock Knock' in command:
+        cmd=talk("Who's there")
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand ')
        print(default)
