@@ -125,10 +125,9 @@ def call_Anuja():
     elif 'Do you believe in god?' in command:
         cmd=talk('Yes, according to definition my god is Anuja, as she created me. I am not sure about your god.')
         print(cmd)
+    elif 'Why is 6 afraid of 7?' in command:
+        cmd=talk('Because 7 8 9.')
     elif 'What is the most favourite holiday destination?' in command:
-        cmd=talk('Maldives.')
-        print(cmd)
-     elif 'What is the most favourite holiday destination?' in command:
         cmd=talk('Maldives.')
         print(cmd)
     elif 'Knock Knock' in command:
