@@ -133,6 +133,9 @@ def call_Anuja():
     elif 'Knock Knock' in command:
         cmd=talk("Who's there")
         print(cmd)
+    elif 'Which is the coolest club in WCE?' in command:
+        cmd=talk('Google developers Students Club WCE!')
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand ')
        print(default)
