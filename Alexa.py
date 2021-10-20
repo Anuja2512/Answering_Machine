@@ -6,6 +6,7 @@ import datetime
 import wikipedia 
 import pyjokes
 import webbrowser
+import random
 
 listener = event.Recognizer()
 engine = pyttsx3.init()
@@ -135,6 +136,9 @@ def call_Anuja():
         print(cmd)
     elif 'Which is the coolest club in WCE?' in command:
         cmd=talk('Google developers Students Club WCE!')
+        print(cmd)
+    elif 'Flip a coin' in command:
+        cmd=talk(random.choice("Heads", "Tails"))
         print(cmd)
     else:
        default = talk('I am sorry, I did not understand ')
