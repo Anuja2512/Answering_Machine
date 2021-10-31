@@ -146,6 +146,9 @@ def call_Anuja():
     elif 'Flip a coin' in command:
         cmd=talk(random.choice("Heads", "Tails"))
         print(cmd)
+    elif 'day' in command:
+        cmd=talk(datetime.today().strftime('%A'))
+        print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
