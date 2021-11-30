@@ -156,6 +156,9 @@ def call_Anuja():
         cmd = talk('Opening Google')
         webbrowser.open("https://www.google.com/")
         print(cmd)
+    elif 'day' in command:
+        cmd=talk(datetime.today().strftime('%A'))
+        print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
