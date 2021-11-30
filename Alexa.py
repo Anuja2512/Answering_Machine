@@ -7,6 +7,7 @@ import wikipedia
 import pyjokes
 import webbrowser
 import random
+from word2number import w2n
 
 listener = event.Recognizer()
 engine = pyttsx3.init()
@@ -144,7 +145,12 @@ def call_Anuja():
         cmd = talk("Perfect as always")
         print(cmd)
     elif 'Flip a coin' in command:
-        cmd=talk(random.choice("Heads", "Tails"))
+        cmd = talk(random.choice("Heads", "Tails"))
+        print(cmd)
+    elif 'random number between' in command:
+        n1 = w2n.word_to_num(command.split("and")[0])
+        n2 = w2n.word_to_num(command.split("and")[1])
+        cmd = talk("How about " + str(random.randint(min(n1, n2), max(n1, n2))))
         print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
