@@ -152,9 +152,15 @@ def call_Anuja():
         n2 = w2n.word_to_num(command.split("and")[1])
         cmd = talk("How about " + str(random.randint(min(n1, n2), max(n1, n2))))
         print(cmd)
+    elif 'open google' in command:
+        cmd = talk('Opening Google')
+        webbrowser.open("https://www.google.com/")
+        print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
+   
+       
 
 
 call_Anuja()
