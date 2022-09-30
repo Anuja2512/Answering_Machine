@@ -89,6 +89,10 @@ def call_Anuja():
         elif 'what is your fav sub?' in command:
         cmd=talk('MY fav dish is DBMS')
         print(cmd)
+        
+         elif 'what is your name?' in command:
+        cmd=talk('MY name is Github')
+        print(cmd)
   
   
 
