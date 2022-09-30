@@ -72,6 +72,9 @@ def call_Anuja():
     elif 'Can you dance?' in command:
         cmd = talk('I am learning hip hop now, thanks for asking.')
         print(cmd)
+    elif 'Can you sing?' in command:
+        cmd = talk('I am learning tenor now, thanks for asking.')
+        print(cmd)     
     elif 'Are you happy?' in command:
         cmd = talk('Yes,I am ,as I can help you!')
         print(cmd)
@@ -162,7 +165,9 @@ def call_Anuja():
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
-   
+       
+       
+
        
 
 
