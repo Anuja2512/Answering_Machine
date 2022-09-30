@@ -168,6 +168,9 @@ def call_Anuja():
    elif 'what is your mood?' in command:
         cmd = talk('preety good!!!')
         print(cmd)
+         elif 'what is your mood?' in command:
+        cmd = talk('SAD')
+        print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
