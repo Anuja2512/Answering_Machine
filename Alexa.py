@@ -72,5 +72,8 @@ def call_Anuja():
     elif 'What is your age?' in command:
         cmd=talk('I am only six-years-old')
         print(cmd)
+    elif 'What is your hobbie?' in command:
+        cmd=talk('I like to play football')
+        print(cmd)
         
 call_Anuja()
