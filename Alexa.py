@@ -163,6 +163,9 @@ def call_Anuja():
     elif 'What is your hobbie?' in command:
         cmd=talk('I like to play football')
         print(cmd)
+    elif 'Who are you?' in command:
+        cmd = talk('I am Anuja.')
+        print(cmd)
     elif 'What is your spell?' in command:
         cmd=talk('Expecto Patronum')
         print(cmd)
