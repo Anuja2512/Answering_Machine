@@ -75,5 +75,12 @@ def call_Anuja():
     elif 'What is your hobbie?' in command:
         cmd=talk('I like to play football')
         print(cmd)
-        
+    elif 'What is your spell?' in command:
+        cmd=talk('Expecto Patronum')
+        print(cmd)
+    else:
+        default = talk('The boy who lived!!!!')
+        print(default)
+  
+
 call_Anuja()
