@@ -1,5 +1,5 @@
 # Answering_Machine
-#### Answer few commands such as playing songs, showing current time, telling jokes, searching information like Alexa. 
+#### Answer few commands such as playing games , showing current hours , telling joke, searching information like Alexa. 
 
 * Install the following packages in your terminal to run the code: 
   1. pip install SpeechRecognition
