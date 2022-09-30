@@ -168,7 +168,7 @@ def call_Anuja():
     elif 'open youtube' in command:
         cmd=talk('https://www.youtube.com/')
         print(cmd)
-   elif 'what is your mood?' in command:
+    elif 'what is your mood?' in command:
         cmd = talk('preety good!!!')
         print(cmd)
    elif 'what is your mood?' in command:
@@ -179,14 +179,14 @@ def call_Anuja():
         print(cmd)
    elif 'Any Roadmap for covering computer science core subjects' in command:
         cmd=talk('https://www.youtube.com/playlist?list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU')
+   elif 'what is your mood?' in command:
+        cmd = talk('SAD')
         print(cmd)
-    else:
+   elif 'Yes or No?' in command:
+        cmd = talk(random.choice("Yes", "No"))
+        print(cmd)
+   else:
         default = talk('I am sorry, I did not understand ')
         print(default)
-       
-       
-
-       
-
 
 call_Anuja()
