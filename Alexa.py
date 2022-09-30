@@ -165,6 +165,9 @@ def call_Anuja():
     elif 'open youtube' in command:
         cmd=talk('https://www.youtube.com/')
         print(cmd)
+   elif 'what is your mood?' in command:
+        cmd = talk('preety good!!!')
+        print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
