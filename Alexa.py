@@ -213,6 +213,9 @@ def call_Anuja():
     elif 'Yes or No?' in command:
         cmd = talk(random.choice("Yes", "No"))
         print(cmd)
+    elif 'How much Google pay you or do you work for free?' in command:
+        cmd = talk('Well thats a secret which I cannot reveal!!!')
+        print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
