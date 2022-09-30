@@ -162,6 +162,9 @@ def call_Anuja():
     elif 'day' in command:
         cmd=talk(datetime.today().strftime('%A'))
         print(cmd) 
+    elif 'What is todays date?' in command:
+        cmd=talk(datetime.today().strftime('%A'))
+        print(cmd) 
     elif 'open youtube' in command:
         cmd=talk('https://www.youtube.com/')
         print(cmd)
