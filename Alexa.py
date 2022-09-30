@@ -81,6 +81,10 @@ def call_Anuja():
     else:
         default = talk('The boy who lived!!!!')
         print(default)
+       
+    elif 'what is your fav dish?' in command:
+        cmd=talk('MY fav dish is Pav bhaji')
+        print(cmd)
   
 
 call_Anuja()
