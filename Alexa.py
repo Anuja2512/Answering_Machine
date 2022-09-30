@@ -159,6 +159,31 @@ def call_Anuja():
         cmd = talk('Opening Google')
         webbrowser.open("https://www.google.com/")
         print(cmd)
+
+    elif 'What is your hobbie?' in command:
+        cmd=talk('I like to play football')
+        print(cmd)
+    elif 'What is your spell?' in command:
+        cmd=talk('Expecto Patronum')
+        print(cmd)
+    else:
+        default = talk('The boy who lived!!!!')
+        print(default)
+       
+    elif 'what is your fav dish?' in command:
+        cmd=talk('MY fav dish is Pav bhaji')
+        print(cmd)
+        
+        elif 'what is your fav sub?' in command:
+        cmd=talk('MY fav dish is DBMS')
+        print(cmd)
+        
+         elif 'what is your name?' in command:
+        cmd=talk('MY name is Github')
+        print(cmd)
+  
+  
+
     elif 'day' in command:
         cmd=talk(datetime.today().strftime('%A'))
         print(cmd) 
@@ -188,5 +213,6 @@ def call_Anuja():
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
+
 
 call_Anuja()
