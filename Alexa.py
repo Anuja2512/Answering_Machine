@@ -85,6 +85,11 @@ def call_Anuja():
     elif 'what is your fav dish?' in command:
         cmd=talk('MY fav dish is Pav bhaji')
         print(cmd)
+        
+        elif 'what is your fav sub?' in command:
+        cmd=talk('MY fav dish is DBMS')
+        print(cmd)
+  
   
 
 call_Anuja()
