@@ -158,6 +158,9 @@ def call_Anuja():
         print(cmd)
     elif 'day' in command:
         cmd=talk(datetime.today().strftime('%A'))
+        print(cmd) 
+    elif 'open youtube' in command:
+        cmd=talk('https://www.youtube.com/')
         print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
