@@ -219,6 +219,9 @@ def call_Anuja():
     elif 'When is the world going to end?' in command:
         cmd = talk('Well, Unix 32-bit time overflows on January 19, 2038. Maybe then.')
         print(cmd)
+    elif 'When the hacktoberfest t-shirts we will get?' in command:
+        cmd = talk('Dont know but we will get it soon dont worry.')
+        print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
