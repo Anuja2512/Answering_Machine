@@ -8,6 +8,8 @@
   4. pip install pywhatkit
   5. pip install pyjokes
 
+You can do this easily by running `pip install -r requirements.txt`
+
 ### Note: If anyone is getting error in installing pyaudio
       Do this in the terminal:
       1. pip install pipwin
