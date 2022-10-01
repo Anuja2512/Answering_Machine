@@ -169,18 +169,23 @@ def call_Anuja():
     elif 'What is your spell?' in command:
         cmd=talk('Expecto Patronum')
         print(cmd)
- 
+    else:
+        default = talk('The boy who lived!!!!')
+        print(default)
+       
     elif 'what is your fav dish?' in command:
         cmd=talk('MY fav dish is Pav bhaji')
         print(cmd)
         
-    elif 'what is your fav sub?' in command:
+        elif 'what is your fav sub?' in command:
         cmd=talk('MY fav dish is DBMS')
         print(cmd)
         
-    elif 'what is your name?' in command:
+         elif 'what is your name?' in command:
         cmd=talk('MY name is Github')
         print(cmd)
+  
+  
 
     elif 'day' in command:
         cmd=talk(datetime.today().strftime('%A'))
@@ -217,13 +222,12 @@ def call_Anuja():
     elif 'When the hacktoberfest t-shirts we will get?' in command:
         cmd = talk('Dont know but we will get it soon dont worry.')
         print(cmd)
-    elif 'Say something about cat' in command:
-        cmd = talk('Adorable...Adorable...Adorable...')
+    elif 'Has Big Billion Sale ended?' in command:
+        cmd = talk('Yes!')
         print(cmd)
     else:
-        default = talk('The boy who lived!!!!')
+        default = talk('I am sorry, I did not understand ')
         print(default)
-       
 
 
 call_Anuja()
