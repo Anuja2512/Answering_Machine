@@ -169,7 +169,12 @@ def call_Anuja():
     elif 'What is your spell?' in command:
         cmd=talk('Expecto Patronum')
         print(cmd)
- 
+    elif 'Do you Know BTS?' in command:
+        cmd=talk('Yes ofcourse it is very famous KPOP Boy Band')
+        print(cmd)
+    elif 'Do you know Distance Between Earth and Moon?' in command:
+        cmd=talk('It is 384,400 km')
+        print(cmd)
     elif 'what is your fav dish?' in command:
         cmd=talk('MY fav dish is Pav bhaji')
         print(cmd)
