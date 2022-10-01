@@ -222,6 +222,9 @@ def call_Anuja():
     elif 'When the hacktoberfest t-shirts we will get?' in command:
         cmd = talk('Dont know but we will get it soon dont worry.')
         print(cmd)
+    elif 'Has Big Billion Sale ended?' in command:
+        cmd = talk('Yes!')
+        print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
