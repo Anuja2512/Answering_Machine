@@ -102,6 +102,9 @@ def call_Anuja():
     elif 'Are you a Robot?' in command:
         cmd = talk('I am a human robot')
         print(cmd)
+    elif 'MacOS or Windows??' in command:
+        cmd = talk('Windows')
+        print(cmd)
     elif 'Tell me a joke ?' in command:
         cmd = talk('Relationships are a lot like algebra. Have you ever looked at your X and wondered Y?')
         print(cmd)
