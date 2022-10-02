@@ -267,6 +267,7 @@ def call_Anuja():
         print(cmd)
     elif 'Do you use Arch Linux?' in command: 
         cmd = talk('btw I use arch')
+        print(cmd)
     elif 'where can I add my own questions and replies for you?' in command:
         cmd = talk('In the Github repository named Answering machine made by Anuja2512, you can edit the super-simple python code here.')
         print('Here: \'https://github.com/Anuja2512/Answering_Machine/blob/main/Alexa.py\'')
