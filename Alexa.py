@@ -161,6 +161,36 @@ def call_Anuja():
         n2 = w2n.word_to_num(command.split("and")[1])
         cmd = talk("How about " + str(random.randint(min(n1, n2), max(n1, n2))))
         print(cmd)
+    elif 'plus' in command: # What is --- plus ----
+        n1 = w2n.word_to_num(command.split("plus")[0])
+        n2 = w2n.word_to_num(command.split("plus")[1])
+        cmd = talk("I think the answer is " + str(n1+n2))
+        print(cmd)
+    elif 'minus' in command: # What is --- minus ----
+        n1 = w2n.word_to_num(command.split("minus")[0])
+        n2 = w2n.word_to_num(command.split("minus")[1])
+        cmd = talk("I think the answer is " + str(n1-n2))
+        print(cmd)
+    elif 'multiplied by' in command: # What is --- multiplied by ----
+        n1 = w2n.word_to_num(command.split("multiplied by")[0])
+        n2 = w2n.word_to_num(command.split("multiplied by")[1])
+        cmd = talk("I think the answer is " + str(n1*n2))
+        print(cmd)
+    elif 'multiply' in command: # What is --- multiply ----
+        n1 = w2n.word_to_num(command.split("multiply")[0])
+        n2 = w2n.word_to_num(command.split("multiply")[1])
+        cmd = talk("I think the answer is " + str(n1*n2))
+        print(cmd)
+    elif 'divided by' in command: # What is --- divided by ----
+        n1 = w2n.word_to_num(command.split("divided by")[0])
+        n2 = w2n.word_to_num(command.split("divided by")[1])
+        cmd = talk("I think the integral answer is " + str(n1//n2))
+        print(cmd)
+    elif 'divide' in command: # What is --- divide ----
+        n1 = w2n.word_to_num(command.split("divide")[0])
+        n2 = w2n.word_to_num(command.split("divide")[1])
+        cmd = talk("I think the integral answer is " + str(n1//n2))
+        print(cmd)
     elif 'open google' in command:
         cmd = talk('Opening Google')
         webbrowser.open("https://www.google.com/")
@@ -244,3 +274,4 @@ def call_Anuja():
 
 
 call_Anuja()
+
