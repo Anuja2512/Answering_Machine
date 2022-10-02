@@ -141,6 +141,9 @@ def call_Anuja():
     elif 'Knock Knock' in command:
         cmd = talk("Who's there")
         print(cmd)
+    elif 'What will happen to humanity in 100 years?' in command:
+        cmd = talk("We would be space fairing species")
+        print(cmd)
     elif 'Which is the coolest club in WCE?' in command:
         cmd = talk('Google developers Students Club WCE!')
         print(cmd)
