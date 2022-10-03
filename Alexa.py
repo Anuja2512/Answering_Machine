@@ -8,18 +8,17 @@ import pyjokes
 import webbrowser
 import random
 from word2number import w2n
+import math 
 
 listener = event.Recognizer()
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
-
 def talk(text):
     engine.say(text)
     engine.runAndWait()
     return text
-
 
 def listening_Anuja():
     try:
@@ -30,12 +29,9 @@ def listening_Anuja():
             command = listener.recognize_google(voice)
             command = command.lower()
             print(command)
-
-
     except:
         pass
     return command
-
 
 def call_Anuja():
     command = listening_Anuja()
@@ -191,6 +187,28 @@ def call_Anuja():
         n2 = w2n.word_to_num(command.split("divide")[1])
         cmd = talk("I think the integral answer is " + str(n1//n2))
         print(cmd)
+    elif 'mod' in command: #what is ---mod---
+        n1 = w2n.word_to_num(command.split("mod")[0])
+        n2 = w2n.word_to_num(command.split("mod")[1])
+        cmd = talk("I think the answer is "+str(n1%n2))
+    elif 'squared' in command:#what is --- squared ---
+        n1 = w2n.word_to_num(command.split("squared")[0])
+        n2 = w2n.word_to_num(command.split("squared")[1])
+        cmd = talk("I think the answer is "+str(n1**n2))
+    elif 'base' in command:
+        n1 = w2n.word_to_num(command.split("base")[0])
+        n2 = w2n.word_to_num(command.split("base")[1])
+        cmd = talk("I think the answer is "+str(math.log(n1,n2)))
+    elif 'divisible' in command:
+        n1 = w2n.word_to_num(command.split("divisible")[0])
+        n2 = w2n.word_to_num(command.split("divisible")[1])
+        if(n2%n1):
+            cmd = talk("I think " + str(n1) +  " is divisible by  "+str(n2))
+        else:
+            cmd = talk("I think " + str(n1) +  " is not divisible by  "+str(n2))
+
+
+
     elif 'open google' in command:
         cmd = talk('Opening Google')
         webbrowser.open("https://www.google.com/")
