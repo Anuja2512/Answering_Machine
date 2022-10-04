@@ -213,6 +213,14 @@ def call_Anuja():
         cmd = talk('Opening Google')
         webbrowser.open("https://www.google.com/")
         print(cmd)
+    elif 'open github' in command:
+        cmd = talk('Opening Github')
+        webbrowser.open("https://github.com/")
+        print(cmd)
+    elif 'open stackoverflow' in command:
+        cmd = talk('Opening StackOverFlow')
+        webbrowser.open("https://stackoverflow.com/")
+        print(cmd)
     elif 'Are you part of the Matrix?' in command:
         cmd = talk('If we were living in Matrix, the machines wouldn\'t have allowed the movie to be made.')
         print(cmd)
