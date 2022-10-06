@@ -95,6 +95,9 @@ def call_Anuja():
     elif 'what is the square of two?' in command:
         cmd = talk('four')
         print(cmd)
+    elif 'what is the square of four?' in command:
+        cmd = talk('sixteen')
+        print(cmd)
     elif 'Are you a Robot?' in command:
         cmd = talk('I am a human robot')
         print(cmd)
