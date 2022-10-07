@@ -305,7 +305,10 @@ def call_Anuja():
         print(cmd)        
     elif 'Is the Hacktober Fest still going' in command:
         cmd = talk('Yes!') 
-        print(cmd)   
+        print(cmd)
+    elif 'Who founded Facebook?' in command:
+        cmd = talk('Mark Zukerberg') 
+        print(cmd)
     elif 'where can I add my own questions and replies for you?' in command:
         cmd = talk('In the Github repository named Answering machine made by Anuja2512, you can edit the super-simple python code here.')
         print('Here: \'https://github.com/Anuja2512/Answering_Machine/blob/main/Alexa.py\'')
