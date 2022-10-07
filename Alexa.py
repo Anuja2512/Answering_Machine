@@ -312,6 +312,9 @@ def call_Anuja():
     elif 'where can I add my own questions and replies for you?' in command:
         cmd = talk('In the Github repository named Answering machine made by Anuja2512, you can edit the super-simple python code here.')
         print('Here: \'https://github.com/Anuja2512/Answering_Machine/blob/main/Alexa.py\'')
+    elif 'What are you?'in command or 'Who are you?' in command:
+        cmd = talk('I am an Artificial Intelligence, written in python, named Anuja. Just like Alexa or Siri but, I was not made by a company but, by fantastic users on GitHub. Each of my replies is made by some random person including this.')
+        print('I am an Artificial Intelligence, written in python, named Anuja. Just like Alexa or Siri but, I was not made by a company but, by fantastic users on GitHub. Each of my replies is made by some random person including this.')
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
