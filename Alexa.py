@@ -305,6 +305,9 @@ def call_Anuja():
         print(cmd)
     elif 'How is my face?' in command:
         cmd = talk('Cute and Cool as ever')
+        print(cmd)
+    elif 'Guess who will be the winners of ICC T20 World-Cup 2022 ?' in command:
+        cmd = talk('Well, it can be Australia, South Africa or India')
         print(cmd)        
     elif 'Is the Hacktober Fest still going' in command:
         cmd = talk('Yes!') 
