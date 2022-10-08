@@ -7,6 +7,7 @@
   3. pip install PyAudio
   4. pip install pywhatkit
   5. pip install pyjokes
+  6. pip install word2number
 
 You can do this easily by running `pip install -r requirements.txt`
 
@@ -14,3 +15,8 @@ You can do this easily by running `pip install -r requirements.txt`
       Do this in the terminal:
       1. pip install pipwin
       2. pipwin install Pyaudio
+### Note: For Ubuntu Users
+    try :
+    1. pip3 install pipwin
+    2. sudo apt-get install portaudio19-dev python-pyaudio
+
