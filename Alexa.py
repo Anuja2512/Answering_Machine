@@ -283,6 +283,9 @@ def call_Anuja():
     elif 'How much Google pay you or do you work for free?' in command:
         cmd = talk('Well thats a secret which I cannot reveal!!!')
         print(cmd)
+    elif 'Can you suggest me some channels to learn DSA?' in command:
+        cmd = talk('There are many such channels, best one are Striver, Love Babbar and Coding Ninjas')
+        print(cmd)
     elif 'When is the world going to end?' in command:
         cmd = talk('Well, Unix 32-bit time overflows on January 19, 2038. Maybe then.')
         print(cmd)
