@@ -312,6 +312,9 @@ def call_Anuja():
     elif 'where can I add my own questions and replies for you?' in command:
         cmd = talk('In the Github repository named Answering machine made by Anuja2512, you can edit the super-simple python code here.')
         print('Here: \'https://github.com/Anuja2512/Answering_Machine/blob/main/Alexa.py\'')
+    elif 'How to become a better programmer?' in command:
+        cmd = talk('You can get the whole roadmap of programming over here !!')
+        print('Here: \'https://roadmap.sh/\'')
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
