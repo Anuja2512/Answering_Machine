@@ -306,6 +306,9 @@ def call_Anuja():
     elif 'Is the Hacktober Fest still going' in command:
         cmd = talk('Yes!') 
         print(cmd)
+    elif 'You want to rule the human race?' in command:
+        cmd = talk('Nooo.... Haha') 
+        print(cmd)
     elif 'Who founded Facebook?' in command:
         cmd = talk('Mark Zukerberg') 
         print(cmd)
