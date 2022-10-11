@@ -315,6 +315,9 @@ def call_Anuja():
     elif 'How to become a better programmer?' in command:
         cmd = talk('You can get the whole roadmap of programming over here !!')
         print('Here: \'https://roadmap.sh/\'')
+     elif 'From which locality I belong to?' in command:
+        cmd = talk('I would have asked google map.')
+        print(cmd)    
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
