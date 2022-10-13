@@ -315,6 +315,9 @@ def call_Anuja():
     elif 'How to become a better programmer?' in command:
         cmd = talk('You can get the whole roadmap of programming over here !!')
         print('Here: \'https://roadmap.sh/\'')
+    elif 'Tell me best quote?' in command:
+        cmd = talk('The joy of coding Python should be in seeing short, concise, readable classes that express a lot of action in a small amount of clear code -- not in reams of trivial code that bores the reader to death')
+        print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
