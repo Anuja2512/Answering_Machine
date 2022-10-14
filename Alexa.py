@@ -77,12 +77,18 @@ def call_Anuja():
     elif 'Where were you last night?' in command:
         cmd = talk('Ask you mom.')
         print(cmd)
+    elif 'What do you mean by confusion matrix?' in command:
+        cmd = talk('A confusion matrix (or error matrix) is a specific table that is used to measure the performance of an algorithm. It is mostly used in supervised learning; in unsupervised learning, it’s called the matching matrix.')
+        print(cmd)    
     elif 'Can you give me a random fact?' in command:
         cmd = talk("There's a Valentine's Day for Single People in South Korea , perfect place for you!")
         print(cmd)
     elif 'What is Engineering?' in command:
         cmd = talk('the work of designing and creating large structures')
         print(cmd)
+     elif 'What do you mean by confusion matrix?' in command:
+        cmd = talk('A confusion matrix (or error matrix) is a specific table that is used to measure the performance of an algorithm. It is mostly used in supervised learning; in unsupervised learning, it’s called the matching matrix.')
+        print(cmd)    
     elif 'Where do you live?' in command:
         cmd = talk('I live in globalized world')
         print(cmd)
