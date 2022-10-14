@@ -283,6 +283,9 @@ def call_Anuja():
     elif 'How much Google pay you or do you work for free?' in command:
         cmd = talk('Well thats a secret which I cannot reveal!!!')
         print(cmd)
+    elif 'Can you suggest me some channels to learn DSA?' in command:
+        cmd = talk('There are many such channels, best one are Striver, Love Babbar and Coding Ninjas')
+        print(cmd)
     elif 'When is the world going to end?' in command:
         cmd = talk('Well, Unix 32-bit time overflows on January 19, 2038. Maybe then.')
         print(cmd)
@@ -302,6 +305,9 @@ def call_Anuja():
         print(cmd)
     elif 'How is my face?' in command:
         cmd = talk('Cute and Cool as ever')
+        print(cmd)
+    elif 'Guess who will be the winners of ICC T20 World-Cup 2022 ?' in command:
+        cmd = talk('Well, it can be Australia, South Africa or India')
         print(cmd)        
     elif 'Is the Hacktober Fest still going' in command:
         cmd = talk('Yes!') 
