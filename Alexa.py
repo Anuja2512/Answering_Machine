@@ -81,7 +81,8 @@ def call_Anuja():
         cmd = talk('A confusion matrix (or error matrix) is a specific table that is used to measure the performance of an algorithm. It is mostly used in supervised learning; in unsupervised learning, it’s called the matching matrix.')
         print(cmd)    
     elif 'Can you give me a random fact?' in command:
-        cmd = talk("There's a Valentine's Day for Single People in South Korea , perfect place for you!")
+        randomfactlist=["Avocados are a fruit, not a vegetable","The Eiffel Tower can be 15 cm taller during the summer, due to thermal expansion meaning the iron heats up, the particles gain kinetic energy and take up more space","Australia is wider than the moon","Human teeth are the only part of the body that cannot heal themselves","It's illegal to own just one guinea pig in Switzerland","Venus is the only planet to spin clockwise","The real name for a hashtag is an octothorpeThe real name for a hashtag is an octothorpe"]
+        cmd = talk(randomfactlist[random.randint(0,6)])
         print(cmd)
     elif 'What is Engineering?' in command:
         cmd = talk('the work of designing and creating large structures')
