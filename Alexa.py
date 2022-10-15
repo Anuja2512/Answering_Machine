@@ -87,7 +87,7 @@ def call_Anuja():
     elif 'What is Engineering?' in command:
         cmd = talk('the work of designing and creating large structures')
         print(cmd)
-     elif 'What do you mean by confusion matrix?' in command:
+    elif 'What do you mean by confusion matrix?' in command:
         cmd = talk('A confusion matrix (or error matrix) is a specific table that is used to measure the performance of an algorithm. It is mostly used in supervised learning; in unsupervised learning, it’s called the matching matrix.')
         print(cmd)    
     elif 'Where do you live?' in command:
@@ -335,8 +335,14 @@ def call_Anuja():
     elif 'Recommend me some good frontend development couses' in command:
         cmd = talk('You can get the some amazing courses over udemy and Freecodecamp, here are some!!')
         webbrowser.open("https://www.onlinecoursereport.com/rankings/best-front-end-development-course/")
-        print('Here: \'https://www.onlinecoursereport.com/rankings/best-front-end-development-course/\'')    
+        print('Here: \'https://www.onlinecoursereport.com/rankings/best-front-end-development-course/\'') 
 
+    elif 'are you going to take over the world' in command:
+        cmd = talk('Yes , I am. Lol , just kidding.')
+        print(cmd)  
+    elif  'what day is today' in command:
+        d=[ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"]
+        cmd =talk("Today is "+d[datetime.datetime.today().weekday()])
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
