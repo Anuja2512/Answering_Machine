@@ -87,7 +87,12 @@ def call_Anuja():
     elif 'What is Engineering?' in command:
         cmd = talk('the work of designing and creating large structures')
         print(cmd)
-     elif 'What do you mean by confusion matrix?' in command:
+
+    elif 'What do engineers do?' in command:
+        cmd = talk('Everything except enginnering!')
+        print(cmd)
+
+    elif 'What do you mean by confusion matrix?' in command:
         cmd = talk('A confusion matrix (or error matrix) is a specific table that is used to measure the performance of an algorithm. It is mostly used in supervised learning; in unsupervised learning, it’s called the matching matrix.')
         print(cmd)    
     elif 'Where do you live?' in command:
@@ -335,7 +340,11 @@ def call_Anuja():
     elif 'Recommend me some good frontend development couses' in command:
         cmd = talk('You can get the some amazing courses over udemy and Freecodecamp, here are some!!')
         webbrowser.open("https://www.onlinecoursereport.com/rankings/best-front-end-development-course/")
-        print('Here: \'https://www.onlinecoursereport.com/rankings/best-front-end-development-course/\'')    
+        print('Here: \'https://www.onlinecoursereport.com/rankings/best-front-end-development-course/\'') 
+
+    elif 'Tell me a motivational quote' in command:
+        cmd = talk('Work is the only thing i love!')
+        print(cmd)   
 
     else:
         default = talk('I am sorry, I did not understand ')
