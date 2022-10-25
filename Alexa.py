@@ -88,7 +88,7 @@ def call_Anuja():
         cmd = talk('the work of designing and creating large structures')
         print(cmd)
 
-    elif 'What Engineers do?' in command:
+    elif 'What do engineers do?' in command:
         cmd = talk('Everything except enginnering!')
         print(cmd)
 
@@ -342,7 +342,7 @@ def call_Anuja():
         webbrowser.open("https://www.onlinecoursereport.com/rankings/best-front-end-development-course/")
         print('Here: \'https://www.onlinecoursereport.com/rankings/best-front-end-development-course/\'') 
 
-    elif 'Tell me a motivation quote' in command:
+    elif 'Tell me a motivational quote' in command:
         cmd = talk('Work is the only thing i love!')
         print(cmd)   
 
